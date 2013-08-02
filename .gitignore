@@ -18,3 +18,9 @@ Debug
 # Complie help folder
 ipch
 
+# VS2010 Open File
+*.suo
+*.sdf
+*.sln
+*.opensdf
+
