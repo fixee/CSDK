@@ -2,5 +2,75 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="HTTPClient\SHeader.cpp">
+      <Filter>HTTPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPClient\SParam.cpp">
+      <Filter>HTTPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPClient\SRequest.cpp">
+      <Filter>HTTPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPClient\SKeyValuePair.cpp">
+      <Filter>HTTPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="SPan\SPanInfo.cpp">
+      <Filter>SPan</Filter>
+    </ClCompile>
+    <ClCompile Include="SPan\SPanManager.cpp">
+      <Filter>SPan</Filter>
+    </ClCompile>
+    <ClCompile Include="SPan\SPanFileInfo.cpp">
+      <Filter>SPan</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPI\SPanAPI.cpp">
+      <Filter>SAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{59d8acfb-9d5e-43de-aa6e-a3788d7eca84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient">
+      <UniqueIdentifier>{e523cee4-f14f-4080-a5a5-0dae3c54cb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPan">
+      <UniqueIdentifier>{17df591c-4fc5-438a-9572-c35f666326d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAPI">
+      <UniqueIdentifier>{2115eff2-685e-483e-a9c8-8a80275f2b62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\CSDK.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClient\HTTPClient.h">
+      <Filter>HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClient\SHeader.h">
+      <Filter>HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClient\SParam.h">
+      <Filter>HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClient\SRequest.h">
+      <Filter>HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPClient\SKeyValuePair.h">
+      <Filter>HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SPan\SPanInfo.h">
+      <Filter>SPan</Filter>
+    </ClInclude>
+    <ClInclude Include="SPan\SPanManager.h">
+      <Filter>SPan</Filter>
+    </ClInclude>
+    <ClInclude Include="SPan\SPanFileInfo.h">
+      <Filter>SPan</Filter>
+    </ClInclude>
+    <ClInclude Include="SAPI\SPanAPI.h">
+      <Filter>SAPI</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -74,7 +74,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HTTPClient\SHeader.cpp" />
+    <ClCompile Include="HTTPClient\SKeyValuePair.cpp" />
+    <ClCompile Include="HTTPClient\SParam.cpp" />
+    <ClCompile Include="HTTPClient\SRequest.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SAPI\SPanAPI.cpp" />
+    <ClCompile Include="SPan\SPanFileInfo.cpp" />
+    <ClCompile Include="SPan\SPanInfo.cpp" />
+    <ClCompile Include="SPan\SPanManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HTTPClient\HTTPClient.h" />
+    <ClInclude Include="HTTPClient\SHeader.h" />
+    <ClInclude Include="HTTPClient\SKeyValuePair.h" />
+    <ClInclude Include="HTTPClient\SParam.h" />
+    <ClInclude Include="HTTPClient\SRequest.h" />
+    <ClInclude Include="Include\CSDK.h" />
+    <ClInclude Include="SAPI\SPanAPI.h" />
+    <ClInclude Include="SPan\SPanFileInfo.h" />
+    <ClInclude Include="SPan\SPanInfo.h" />
+    <ClInclude Include="SPan\SPanManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
