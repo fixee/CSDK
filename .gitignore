@@ -19,8 +19,8 @@ Debug
 ipch
 
 # VS2010 Open File
-*.suo
-*.sdf
-*.sln
-*.opensdf
+SAPI_SDK_C.suo
+SAPI_SDK_C.sdf
+SAPI_SDK_C.sln
+SAPI_SDK_C.opensdf
 
